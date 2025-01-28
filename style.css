@@ -1,0 +1,144 @@
+p {
+ color: rgb(0, 0, 0);
+    }
+    img {
+        width: 1000px;
+        height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }  
+         p {
+            font-family: Helvetica, sans-serif;
+            font-size: 90px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            }
+            .SHOE1 {
+                            position: absolute;
+                        top: 600px;
+                        left: 660px;
+                        transform: translate(-50%, -50%);
+                            }
+            .SHOE2 {
+                   position: absolute;
+                    top: 550px;
+                    left: 200px;
+                     transform: translate(-50%, -50%);}
+                                            
+          .SHOE3 {
+                     position: absolute;
+                         top: 670px;
+                          left: 1560px;
+                         transform: translate(-50%, -50%);
+                                                 }
+            .SHOE4 {
+                        position: absolute;
+                           top: 650px;
+                          left: 1150px;
+                         transform: translate(-50%, -50%);
+      
+                                                   }
+             .REDSOCKS {
+                    position: absolute;
+                       top: 41%;
+                      left: 75%;
+                     transform: translate(-50%, -50%); }
+            .sparkle {
+                    position: absolute;
+                    height: 30%;
+                    width: auto;
+                    top: 83%;
+                    left: 36%;
+                    transform: translate(-50%, -50%);
+                    z-index: 5;
+
+            }
+                .LAINEPURE {
+                      position: absolute;
+                       top: 3000px;
+                  left: 300px;
+             transform: translate(-50%, -50%);}
+            .LAINE {
+                background-color: rgb(255, 0, 0);
+            }
+            .SAB body {
+                background-color: rgb(255, 0, 0);
+            }
+
+        .sparkle2 {
+            position: absolute;
+            height: 30%;
+            width: auto;
+            top: 62%;
+            left: 50%;
+            transition: transform 0.3s ease-in-out;
+            transform-origin: center;
+            z-index: 5;
+        }   
+        .sparkle2:hover {
+            transform: scale(1.3);
+        }
+
+        body.page3 {
+            background-image: url('images/string.jpg');
+        }
+        body.page5 {
+            background-image: url('images/Sheepo.jpg');
+        }
+
+        @keyframes bounceArc {
+            0% { 
+            transform: translateX(0) translateY(0);
+           } 
+            25% { 
+            transform: translateX(25vw) translateY(-50px); /* Move right and up */
+          } 
+            50% { 
+            transform: translateX(50vw) translateY(0); /* Move right and down */
+          } 
+            75% { 
+            transform: translateX(75vw) translateY(-50px); /* Move right and up again */
+          } 
+            100% { 
+            transform: translateX(100vw) translateY(0); /* End at the far right */
+          } 
+          } 
+            
+          .buckethat { 
+            position: absolute;
+            height: 40%;
+            width: auto;
+            top: 62%;
+            left: 0%;
+            z-index: 5;
+            animation: bounceArc 2s ease-in-out infinite; 
+          }  
+
+        .soup {
+            position: absolute;
+            height: 80%;
+            width: auto;
+            top: 62%;
+            left: 60%;
+          }
+        .starred {
+            position: absolute;
+            height: 120%;
+            width: auto;
+            top: 5%;
+            left: 16%;
+            animation: spin 4s linear infinite;
+          }
+
+          @keyframes spin {
+            from {
+                transform:rotate(0deg);
+            }
+            to {
+                transform:rotate(360deg);
+            }
+          }
